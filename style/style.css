@@ -68,7 +68,7 @@ header .header-main {
 }
 
 header .header-main nav {
-  width: 40%;
+  width: 45%;
 }
 
 header .header-main nav .nav {
@@ -84,10 +84,11 @@ header .header-main nav .nav {
           justify-content: space-evenly;
 }
 
+header .header-main nav .nav-links {
+  position: relative;
+}
+
 header .header-main nav .nav-links:hover {
-  display: block;
-  width: 50%;
-  margin: auto;
   padding-bottom: 1rem;
   border-bottom: 0.3rem solid white;
 }

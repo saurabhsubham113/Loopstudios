@@ -51,7 +51,7 @@ header {
     justify-content: space-between;
 
     nav {
-      width: 40%;
+      width: 45%;
 
       .nav {
         font-size: 2rem;
@@ -59,10 +59,10 @@ header {
         align-items: center;
         justify-content: space-evenly;
 
+        &-links {
+          position: relative;
+        }
         &-links:hover {
-          display: block;
-          width: 50%;
-          margin: auto;
           padding-bottom: 1rem;
           border-bottom: 0.3rem solid $color-white;
         }
